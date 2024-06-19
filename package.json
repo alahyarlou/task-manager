@@ -1,0 +1,21 @@
+{
+  "name": "jobs",
+  "version": "1.0.0",
+  "description": "task manager jobs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node index.js"
+  },
+  "keywords": [
+    "tasks",
+    "job"
+  ],
+  "author": "ali alahyarlou",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "nodemon": "^3.1.3"
+  }
+}
